@@ -10,7 +10,7 @@
 
     java -Ddb.url="jdbc:h2:tcp://localhost//tmp/testdb" -jar gitbucket.war
 
-## Run App
+## Run Authorization Server
 
     java -jar target/gitbucketoauth-server-0.0.1-SNAPSHOT.jar
 
