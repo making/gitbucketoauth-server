@@ -18,6 +18,10 @@ public class GitBucketUserDetails extends User {
 		this.account = account;
 	}
 
+	public Account getAccount() {
+		return account;
+	}
+
 	static List<? extends GrantedAuthority> createAuthorities(Account account) {
 		List<GrantedAuthority> authorities = new ArrayList<>();
 		authorities.add(new SimpleGrantedAuthority("ROLE_NORMAL"));
